@@ -55,7 +55,15 @@ let isItCorrect = `You answered ${candidateAnswers[i]}. The correct answer is ${
 console.log(isItCorrect);
   }
 
-  let grade;  //TODO 3.2 use this variable to calculate the candidates score.
+  let grade = 0; 
+  for (let i = 0; i < questions.length; i++){
+    if (candidateAnswers[i].toUpperCase() === correctAnswers[i].toUpperCase()){
+      grade++;
+    }
+
+  };
+  grade = grade/5 * 100;
+  //TODO 3.2 use this variable to calculate the candidates score.
 
 
   return grade;
