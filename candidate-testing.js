@@ -47,7 +47,7 @@ function askQuestion() {
 
 function gradeQuiz(candidateAnswers) {
 
-  // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
+  // TOdO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 
   for (let i = 0; i < questions.length; i++){
 let isItCorrect = `You answered ${candidateAnswers[i]}. The correct answer is ${correctAnswers[i]}!`
