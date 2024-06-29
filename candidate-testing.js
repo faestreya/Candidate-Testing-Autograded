@@ -63,8 +63,7 @@ console.log(isItCorrect);
 
   };
   grade = grade/5 * 100;
-  //TODO 3.2 use this variable to calculate the candidates score.
-
+  //TODO 3.2 use this variable to calculate the candidates score
 
   return grade;
 }
